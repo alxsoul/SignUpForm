@@ -1,0 +1,62 @@
+<html>
+
+<head>
+  <title>SignUpForm</title>
+    <link rel="stylesheet" type="text/css" href="/assets/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico" rel="stylesheet">
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <div class="container-fluid text-center">
+      <div id="modalDiv">
+        <div id="modal">
+          <div class="header">
+            <span id="closeBtn">&times</span>
+          </div>
+          <form name="subForm" method="post" action="">
+            <table>
+
+              <tr>
+                <td><input id="userName"type="name" name="name" placeholder="Type Your Username..." /></td>
+              </tr>
+              <tr>
+                <td><span id="userNameAlert"></span></td>
+              </tr>
+
+              <tr>
+                <td><input id="userEmail"type="email" name="email" placeholder="Type Your Email..." /></td>
+              </tr>
+              <tr>
+                <td><span id="userEmailAlert"></span></td>
+              </tr>
+
+              <tr>
+                <td><input id="userPass" type="password" name="password" placeholder="Type Your Password..." /></td>
+              </tr>
+              <tr>
+                <td><span id="userPassowrdAlert"></span></td>
+              </tr>
+
+              <tr>
+                <td><button type="submit" id="submitBtn">Submit</button></td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+      <h1 class="front-header">welcome to our website</h1>
+      <p class="front-par">Click the button below to subscribe </p>
+      <button id="modalbtn">Subscribe</button>
+
+    </div>
+
+    <script src="/assets/main.js"></script>
+    </body>
+
+</html>
